@@ -86,21 +86,44 @@
 - Computers make excellent calculators. This program will show any times table you want.
 - You're going to play around with the code below a bit.
 - Remember that if you break the program, you can always refresh the browser page and pick up a new version; there's no risk of breaking anything.
-#+BEGIN_HTML
-<iframe src="https://trinket.io/embed/python/2b640d363a" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-#+END_HTML
 ** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- *Silver:* The first task is a bit like an English comprehension task. To collect this badge, answer the following questions:
+- *Silver:* Fizz-buzz is a maths game.
+  - Players take it in turns to count up from 1. 
+  - If the number they're about to say is divisible by 3, they say 'Fizz' instead of their number.
+  - If the number is divisible by 5, they say 'Buzz'.
+  - If its divisible by both 3 and 5, the player says 'FizzBuzz'.
+  - Otherwise, the player says their number. 
+- The first few moves are 1, 2, fizz, 4, buzz, fizz...
+#+BEGIN_HTML
+<iframe src="https://trinket.io/embed/python/19f3002d2e" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+#+END_HTML
+- The program above prints out the output of a game of FizzBuzz.
+- Sometimes we want to do division and be able to calculate remainders
+- The computer science term for this is /modulo/, and in Python this is represented with a % sign. 
+- E.g. Performing =15 % 5= would give =0=. There is no remainder when you do 15 divided by 5.
+- Doing =7 % 6= would give a remainder of =1=.
+- To collect the badge, modify this program to also allow a number that is a multiple of 7 to include the output 'Pop', and a multiple of 11 outputs 'Whack' (as well as fizz/buzz).
+
+
+- *Gold:* This task is a bit like an English comprehension task. To collect this badge, answer the following questions:
   1. What is the =while= loop doing in lines 4 and 5? The program will work without it, if you unindent the line underneath it.
   2. The =for= line makes the =multiplier= variable increase by one each time the loop repeats. 
     - What needs to change to make the program start at 2x or 3x instead of 1x?
     - What needs to change to make the program go up to 100x instead of 12x?
   3. What happens if the =print(nextAnswer)= line isn't indented? Why?
-- *Gold:* Fizz-buzz task.
 #+BEGIN_HTML
-<iframe src="https://trinket.io/embed/python/19f3002d2e" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/2b640d363a" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 #+END_HTML
-- *Platinum:* Pending
+- Write your answers in a text file using Notepad, and upload them.
+
+
+- *Platinum:* Write a program to add up all the numbers from 1 to any number the user enters.
+- You can either use the template below, or write your answer in IDLE. 
+#+BEGIN_HTML
+<iframe src="https://trinket.io/embed/python/edd1c017f4" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+#+END_HTML
+- Screenshot and upload your code to collect the badge. 
+- Extra credit if you give the user the option to multiply all the numbers together or add them up.

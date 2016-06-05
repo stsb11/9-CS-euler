@@ -1,0 +1,106 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: It all adds up
+#+AUTHOR: Stephen Brown
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/9-CS-euler">Fork me on GitHub</a>
+</div>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Introduction
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+- Computers make excellent calculators. This program will show any times table you want.
+- You're going to play around with the code below a bit.
+- Remember that if you break the program, you can always refresh the browser page and pick up a new version; there's no risk of breaking anything.
+#+BEGIN_HTML
+<iframe src="https://trinket.io/embed/python/2b640d363a" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+#+END_HTML
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- *Silver:* The first task is a bit like an English comprehension task. To collect this badge, answer the following questions:
+  1. What is the =while= loop doing in lines 4 and 5? The program will work without it, if you unindent the line underneath it.
+  2. The =for= line makes the =multiplier= variable increase by one each time the loop repeats. 
+    - What needs to change to make the program start at 2x or 3x instead of 1x?
+    - What needs to change to make the program go up to 100x instead of 12x?
+  3. What happens if the =print(nextAnswer)= line isn't indented? Why?
+- *Gold:* Fizz-buzz task.
+#+BEGIN_HTML
+<iframe src="https://trinket.io/embed/python/19f3002d2e" width="100%" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+#+END_HTML
+- *Platinum:* Pending

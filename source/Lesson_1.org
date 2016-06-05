@@ -1,0 +1,111 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Text
+#+AUTHOR: Stephen Brown
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/9-CS-euler">Fork me on GitHub</a>
+</div>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Introduction
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- You've written a fair amount of code over the last three years.
+- In this project, you'll try writing code for yourself.
+** Build  It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+- In your first task, you'll work a little bit with variables and =If= statements. 
+- Run the program below a few times by clicking the =Play= icon.
+  - Can you make the program show each different branch of the conversation?
+  - Why do you think the program always finishes with 'Nice talking with you'?
+  - Why don't you always get prompted for your feelings about kittens?
+- Try this task
+#+BEGIN_HTML
+<iframe src="https://trinket.io/embed/python/9526781145" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+#+END_HTML
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- *Silver:* Open this [[https://scratch.mit.edu/projects/112644879/#editor][template]] in a new tab, and finish writing the program above in Scratch. Upload a screenshot of your finished code. 
+- *Gold:* Modify the Python program above to remember someone's hot drink order.
+  - First should be asked if they prefer tea or coffee.
+  - Ask if they take milk with their tea/coffee.
+  - Next, they should be asked if they want sugar.
+    - If they do, ask how many sugars they'd like.
+  - The order should be showed to the user.
+  - e.g. 'You drink tea with milk and no sugar.'
+- *Platinum:* Make the program more grammatically correct, so it'll say either '1 sugar' or '2/3/4/n sugars'.
+- _or_
+- Make the Python program say /that's a lot of sugar/ if the user says they want more than 3 sugars. 

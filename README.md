@@ -1,2 +1,6 @@
-# 9-CS-euler
-9CS KS3 Coding Challenges
+9-CS-gameOfLife
+===============
+
+Y9 Computer Science unit - the Game of Life.
+
+Spreadsheet module.
